@@ -39,9 +39,9 @@
 
 
 /* 1.1 General */
-body{
+/* body{
   background-color: #000;
-}
+} */
 
 
 @import url('bootstrap.min.css');
@@ -1000,7 +1000,7 @@ h1 + .line{
 }
 
 .pp-section{
-  background: #fff;
+  background: #000;
   background-position: 50%;
   background-size: cover;
   padding:8rem 0 6rem;
