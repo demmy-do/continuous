@@ -1,9 +1,5 @@
 /* ------------------------------------------------------------------------------
 
-  Template Name: Denzel. 
-  Description: Denzel. - Onepage Personal Template
-  Author: Paul
-  Author URI: http://themeforest.net/user/paul_tf
   
   1.  Global
 
@@ -854,13 +850,14 @@ ion-icon{
 
 .navbar-nav-mobile{
   display: block;
-  font-size:2.5vh;
-  margin-top: 8vh;
+  font-size:18px;
+  margin-top: 24px;
   font-weight: 600;
 }
 
 .navbar-nav-mobile  li{
-  margin-bottom: 4.4vmin;
+  display: inline-block;
+  margin: 0 16px;
 }
 
 .navbar-nav-mobile li a{
@@ -1493,3 +1490,13 @@ h1 + .line{
   display: none;
 }
 
+nav.custom-desktop{
+  position: fixed;
+  z-index: 9;
+  width: 100%;
+  text-align: right;
+  padding: 0 40px;
+}
+.txt-center{
+  text-align: center !important;
+}
