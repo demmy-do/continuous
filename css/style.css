@@ -1033,14 +1033,14 @@ h1 + .line{
   vertical-align: middle;
 }
 
-/* .pp-scrollable .scroll-wrap{
+.pp-scrollable .scroll-wrap{
   width: 100%;
   position: relative;
   display: inline-block;
   vertical-align: middle;
-  padding: 8rem 0 6rem;
+  /* padding: 8rem 0 6rem; */
   white-space: normal;
-} */
+}
 
 .progress-nav{
   position: fixed;
