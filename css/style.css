@@ -1082,7 +1082,7 @@ h1 + .line{
 }
 
 .progress-nav li.active ~ li:before {
-    background-color: #101010;
+    background-color: #fff;
 }
 
 .progress-nav-white li.active ~ li:before{
