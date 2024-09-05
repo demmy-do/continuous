@@ -1044,6 +1044,12 @@ h1 + .line{
   top: 50%;
   transform: translate(-50%, -50%);
 }
+#about .scroll-wrap{
+  top: 33%;
+}
+#experience .scroll-wrap{
+  top: 30%;
+}
 
 .progress-nav{
   position: fixed;
