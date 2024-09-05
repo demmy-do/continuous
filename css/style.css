@@ -1035,11 +1035,14 @@ h1 + .line{
 
 .pp-scrollable .scroll-wrap{
   width: 100%;
-  position: relative;
+  position: absolute;
   display: inline-block;
   vertical-align: middle;
   /* padding: 8rem 0 6rem; */
   white-space: normal;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .progress-nav{
