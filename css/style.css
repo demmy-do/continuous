@@ -39,7 +39,9 @@
 
 
 /* 1.1 General */
-
+body{
+  background-color: #000;
+}
 
 
 @import url('bootstrap.min.css');
