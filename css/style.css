@@ -1026,12 +1026,12 @@ h1 + .line{
   white-space: nowrap;
 }
 
-.pp-scrollable .intro:before{
+/* .pp-scrollable .intro:before{
   content: '';
   display: inline-block;
   height: 100vh;
   vertical-align: middle;
-}
+} */
 
 .pp-scrollable .scroll-wrap{
   width: 100%;
