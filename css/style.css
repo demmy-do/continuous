@@ -1049,9 +1049,6 @@ h1 + .line{
 #about .scroll-wrap{
   top: 33%;
 }
-#experience .scroll-wrap{
-  top: 30%;
-}
 
 .progress-nav{
   position: fixed;
@@ -1516,8 +1513,31 @@ nav.custom-desktop{
   h1.txt-center{
     font-size: 60px !important;
   }
-
+  #home{
+    background-image: url(../img/bgslide/bg-mobile-1.jpg);
+  }
+  #about{
+    background-image: url(../img/bgslide/bg-mobile-2.jpg);
+  }
+  #experience{
+    background-image: url(../img/bgslide/bg-mobile-3.jpg);
+  }
+  #experience .scroll-wrap{
+    top: 30%;
+  }
 }
+@media (min-width: 769px){
+  #home{
+    background-image: url(../img/bgslide/bg-desktop-1.jpg);
+  }
+  #about{
+    background-image: url(../img/bgslide/bg-desktop-2.jpg);
+  }
+  #experience{
+    background-image: url(../img/bgslide/bg-desktop-3.jpg);
+  }
+}
+
 
 
 /* Mouse Wave */
@@ -1605,3 +1625,4 @@ nav.custom-desktop{
   50%  { opacity: .5; }
   100% { opacity: 1; }
 }
+
